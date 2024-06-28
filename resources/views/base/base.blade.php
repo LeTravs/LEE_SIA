@@ -7,6 +7,8 @@
     <title>NavigationHTMX</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 </head>
 <body class="flex h-screen bg-gray-100">
     <div class="w-64 h-full overflow-auto bg-gray-700 text-white flex flex-col">
@@ -17,7 +19,7 @@
             <a href="/" class="p-3 hover:bg-blue-600 text-center">Home</a>
             <a href="/about" class="p-3 hover:bg-blue-600 text-center">About</a>
             <a href="/products" class="p-3 hover:bg-blue-600 text-center">Products</a>
-            <a href="/contact" class="p-3 hover:bg-blue-600 text-center">Contact Us</a>
+            <a href="/contact" class="p-3 hover:bg-blue-600 text-center">Contact</a>
         </nav>
     </div>
     <div class="flex-1 flex flex-col overflow-auto">
@@ -35,3 +37,6 @@
     </div>
 </body>
 </html>
+
+
+
